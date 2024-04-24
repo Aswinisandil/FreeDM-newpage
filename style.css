@@ -679,7 +679,7 @@ h2 strong {
 
 .faqcontent{
   font-size: 1.5vw;
-    padding: 1rem;
+  padding: 1rem;
 }
 
 footer {
@@ -1122,7 +1122,8 @@ footer {
   display: block;
   margin-top: 5vh;
   background-color: #3a3a39;
-  padding: 1vh 15vw 5vh;
+  padding: 1vh auto 5vh;
+  /* display: none; */
  }
 
  .carouselDesktop{
@@ -1137,14 +1138,19 @@ footer {
   font-size: 5vw !important;
   color: #ffffff;
   text-align: center;
-  padding: 5vh 0 5vh 0;
+  padding: 5vh 0 0vh 0;
+}
+
+.carousel-item.active {
+  background-color: #3a3a39;
+  padding-left: 15vw;
 }
 
 .reviewCard{
   width: 70vw;
   height: auto;
   gap: 5vw;
-  padding: 3vh 2vw;
+  padding: 3vh 4vw;
   justify-content: space-between;
 }
 
